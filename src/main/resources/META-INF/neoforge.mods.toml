@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="stardew_fishing_individual_treasure"
+version="1.0"
+displayName="Stardew Fishing: Individual Treasure"
+description='''A Minecraft mod that lets you customise which fish have which treasure reward for Stardew Fishing.'''
+[[mixins]]
+config="stardew_fishing_individual_treasure.mixins.json"
+[[dependencies.stardew_fishing_individual_treasure]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="BOTH"
+[[dependencies.stardew_fishing_individual_treasure]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.197,)"
+side="BOTH"
+[[dependencies.stardew_fishing_individual_treasure]]
+modId="stardew_fishing"
+type="required"
+versionRange="[3.7,)"
+ordering="AFTER"
+side="BOTH"

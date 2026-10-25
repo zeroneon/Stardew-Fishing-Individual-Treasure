@@ -1,0 +1,11 @@
+# Gradle and IDE output
+/.gradle/
+/build/
+/.idea/
+
+# Local Minecraft runs
+/runs/
+
+# Local dependencies and release builds
+/libs/*.jar
+
